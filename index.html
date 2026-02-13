@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Will You Be My Valentine?</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Floating hearts container -->
+<div id="hearts"></div>
+
+<!-- HERO SECTION -->
+<section class="hero">
+<h1>Will you be my Valentine? ❤️</h1>
+
+<div>
+<button id="yesBtn" onclick="sayYes()">YES 💕</button>
+<button id="noBtn" onmouseover="moveButton()">NO 😢</button>
+</div>
+
+<p id="response"></p>
+</section>
+
+<!-- LOVE LETTER SECTION -->
+<section id="loveLetter" class="letter-section">
+
+<h2>A Little Something For You</h2>
+
+<!-- Envelope -->
+<div class="envelope" onclick="openLetter()">
+💌
+<p>Click to open</p>
+</div>
+
+<!-- Hidden letter -->
+<div id="letterBox" class="hidden">
+<p id="typedText"></p>
+</div>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
