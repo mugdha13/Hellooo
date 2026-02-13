@@ -69,9 +69,14 @@ function launchConfetti() {
 
 /* OPEN LETTER + TYPEWRITER */
 
-const text =
-"I just wanted to say how grateful I am to have you in my life. You make ordinary days feel special and everything feels easier with you around. Thank you for being you.";
+const text = `
 
+You make ordinary days feel better, random conversations more interesting, and silences more comfortable. I love u for your kindness, your patience, and the way you always know how to make me smile after you roast me (even when I pretend I’m annoyed) 😏 .
+
+Thank you for being you, and for making life a little brighter just by being around. 🌝
+
+Love you Russki 💜
+`;
 let i = 0;
 
 function openLetter() {
